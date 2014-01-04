@@ -1,0 +1,5 @@
+smart.so: main.o
+	gcc -shared -fPIC main.o -o smart.so
+
+main.o : main.c
+	cc -c main.c

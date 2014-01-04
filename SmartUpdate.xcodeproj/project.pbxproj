@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		DB711FD31877DDAA000F22D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FD21877DDAA000F22D9 /* main.c */; };
 		DB711FD51877DDAA000F22D9 /* SmartUpdate.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB711FD41877DDAA000F22D9 /* SmartUpdate.1 */; };
+		DB711FEC1877DDD8000F22D9 /* blocksort.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FDB1877DDD8000F22D9 /* blocksort.c */; };
+		DB711FED1877DDD8000F22D9 /* bzip2.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FDC1877DDD8000F22D9 /* bzip2.c */; };
+		DB711FEE1877DDD8000F22D9 /* bzip2recover.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FDD1877DDD8000F22D9 /* bzip2recover.c */; };
+		DB711FEF1877DDD8000F22D9 /* bzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FDF1877DDD8000F22D9 /* bzlib.c */; };
+		DB711FF21877DDD8000F22D9 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FE51877DDD8000F22D9 /* compress.c */; };
+		DB711FF31877DDD8000F22D9 /* crctable.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FE61877DDD8000F22D9 /* crctable.c */; };
+		DB711FF41877DDD8000F22D9 /* decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FE71877DDD8000F22D9 /* decompress.c */; };
+		DB711FF61877DDD8000F22D9 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FE91877DDD8000F22D9 /* huffman.c */; };
+		DB711FF71877DDD8000F22D9 /* randtable.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FEA1877DDD8000F22D9 /* randtable.c */; };
+		DB711FF81877DDD8000F22D9 /* spewG.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FEB1877DDD8000F22D9 /* spewG.c */; };
+		DB711FFB1877DE39000F22D9 /* smart_diff.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FFA1877DE39000F22D9 /* smart_diff.c */; };
+		DB711FFD1877DF74000F22D9 /* smart_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = DB711FFC1877DF74000F22D9 /* smart_patch.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +40,22 @@
 		DB711FCF1877DDAA000F22D9 /* SmartUpdate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartUpdate; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB711FD21877DDAA000F22D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DB711FD41877DDAA000F22D9 /* SmartUpdate.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SmartUpdate.1; sourceTree = "<group>"; };
+		DB711FDB1877DDD8000F22D9 /* blocksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocksort.c; sourceTree = "<group>"; };
+		DB711FDC1877DDD8000F22D9 /* bzip2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bzip2.c; sourceTree = "<group>"; };
+		DB711FDD1877DDD8000F22D9 /* bzip2recover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bzip2recover.c; sourceTree = "<group>"; };
+		DB711FDE1877DDD8000F22D9 /* bzlib_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bzlib_private.h; sourceTree = "<group>"; };
+		DB711FDF1877DDD8000F22D9 /* bzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bzlib.c; sourceTree = "<group>"; };
+		DB711FE01877DDD8000F22D9 /* bzlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bzlib.h; sourceTree = "<group>"; };
+		DB711FE51877DDD8000F22D9 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		DB711FE61877DDD8000F22D9 /* crctable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crctable.c; sourceTree = "<group>"; };
+		DB711FE71877DDD8000F22D9 /* decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decompress.c; sourceTree = "<group>"; };
+		DB711FE91877DDD8000F22D9 /* huffman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = huffman.c; sourceTree = "<group>"; };
+		DB711FEA1877DDD8000F22D9 /* randtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = randtable.c; sourceTree = "<group>"; };
+		DB711FEB1877DDD8000F22D9 /* spewG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spewG.c; sourceTree = "<group>"; };
+		DB711FF91877DE22000F22D9 /* smart_diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smart_diff.h; sourceTree = "<group>"; };
+		DB711FFA1877DE39000F22D9 /* smart_diff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smart_diff.c; sourceTree = "<group>"; };
+		DB711FFC1877DF74000F22D9 /* smart_patch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smart_patch.c; sourceTree = "<group>"; };
+		DB711FFE1877DF82000F22D9 /* smart_patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smart_patch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +88,24 @@
 		DB711FD11877DDAA000F22D9 /* SmartUpdate */ = {
 			isa = PBXGroup;
 			children = (
+				DB711FDB1877DDD8000F22D9 /* blocksort.c */,
+				DB711FDC1877DDD8000F22D9 /* bzip2.c */,
+				DB711FDD1877DDD8000F22D9 /* bzip2recover.c */,
+				DB711FDE1877DDD8000F22D9 /* bzlib_private.h */,
+				DB711FDF1877DDD8000F22D9 /* bzlib.c */,
+				DB711FE01877DDD8000F22D9 /* bzlib.h */,
+				DB711FE51877DDD8000F22D9 /* compress.c */,
+				DB711FE61877DDD8000F22D9 /* crctable.c */,
+				DB711FE71877DDD8000F22D9 /* decompress.c */,
+				DB711FE91877DDD8000F22D9 /* huffman.c */,
+				DB711FEA1877DDD8000F22D9 /* randtable.c */,
+				DB711FEB1877DDD8000F22D9 /* spewG.c */,
 				DB711FD21877DDAA000F22D9 /* main.c */,
 				DB711FD41877DDAA000F22D9 /* SmartUpdate.1 */,
+				DB711FF91877DE22000F22D9 /* smart_diff.h */,
+				DB711FFA1877DE39000F22D9 /* smart_diff.c */,
+				DB711FFC1877DF74000F22D9 /* smart_patch.c */,
+				DB711FFE1877DF82000F22D9 /* smart_patch.h */,
 			);
 			path = SmartUpdate;
 			sourceTree = "<group>";
@@ -117,7 +161,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB711FF31877DDD8000F22D9 /* crctable.c in Sources */,
+				DB711FEE1877DDD8000F22D9 /* bzip2recover.c in Sources */,
+				DB711FED1877DDD8000F22D9 /* bzip2.c in Sources */,
+				DB711FF81877DDD8000F22D9 /* spewG.c in Sources */,
+				DB711FFD1877DF74000F22D9 /* smart_patch.c in Sources */,
 				DB711FD31877DDAA000F22D9 /* main.c in Sources */,
+				DB711FEF1877DDD8000F22D9 /* bzlib.c in Sources */,
+				DB711FF61877DDD8000F22D9 /* huffman.c in Sources */,
+				DB711FF41877DDD8000F22D9 /* decompress.c in Sources */,
+				DB711FFB1877DE39000F22D9 /* smart_diff.c in Sources */,
+				DB711FEC1877DDD8000F22D9 /* blocksort.c in Sources */,
+				DB711FF71877DDD8000F22D9 /* randtable.c in Sources */,
+				DB711FF21877DDD8000F22D9 /* compress.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
